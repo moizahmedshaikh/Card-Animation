@@ -100,3 +100,43 @@ input:checked + label .description {
 .card[for="c4"] {
   background-image: url(./images/img4.jpeg);
 }
+
+@media (max-width:648px) {
+  .container {
+    height: 400px;
+    width: 400px;
+  }
+  .card > .row > .description {
+    height: 100px;
+    width: 150px;
+  }
+  .description h4 {
+    font-size: 1rem;
+  }
+  .card > .row > .icon {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (max-width:390px) {
+  .container {
+    height: 360px;
+    width: 330px;
+  }
+  .description h4 {
+    font-size: 0.7rem;
+  }
+  .card > .row > .description {
+    height: 120px;
+    width: 100px;
+  }
+  .description p{
+    font-size: 0.7rem;
+  }
+  .card > .row > .icon {
+    height: 40px;
+    width: 40px;
+  }
+}
+
